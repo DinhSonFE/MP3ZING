@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css "
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="header-back">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <div class="header-title">Now Playing</div>
+                <div class="header-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="container-img">
+                <img src="./IMG/img1.jpeg" alt="" class="img" />
+            </div>
+            <div class="title-song">
+                <h2 class="song-playing">Doan Xuan Ca</h2>
+                <p class="singer-name">Nguyen Dinh Son</p>
+            </div>
+            <div class="view-edit-song">
+                <input
+                    class="range-style"
+                    type="range"
+                    value="0"
+                    ,
+                    min=""
+                    ,
+                    step="0.00001"
+                    ,
+                    max="100"
+                />
+                <audio class="audio" src="./mp3/DoanXuanCa.mp3"></audio>
+                <div class="song-handel">
+                    <button class="btn-prev">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </button>
+                    <button class="btn-play">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button class="btn-next">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="setting-music">
+                <div class="btn-repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="btn-like">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="btn-random">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+            <div class="form">
+                <div class="header-form">
+                    <i class="fa-solid fa-music"></i>
+                    <h2 class="header-text">List song</h2>
+                    <div class="btn-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+                <div class="content-form"></div>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
