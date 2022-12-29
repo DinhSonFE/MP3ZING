@@ -34,6 +34,11 @@ const listSong = [
         src: "./mp3/lastchrismas.mp3",
         img: "./IMG/lastchristmas.jpeg",
     },
+        {
+        song: "Tet Nay Con Se Ve",
+        src: "./mp3/tetnayconseve.mp3",
+        img: "./IMG/tetnayconseve.jpeg",
+    },
     {
         song: "Thien Duyen Tien Dinh",
         src: "./mp3/thienduyentiendinh.mp3",
