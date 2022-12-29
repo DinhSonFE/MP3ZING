@@ -35,9 +35,19 @@ const listSong = [
         img: "./IMG/lastchristmas.jpeg",
     },
     {
-        song: "Tet Nay Con Se Ve",
-        src: "./mp3/tetnayconseve.mp3",
-        img: "./IMG/tetnayconseve.jpeg",
+        song: "Thien Duyen Tien Dinh",
+        src: "./mp3/thienduyentiendinh.mp3",
+        img: "./IMG/thienduyentiendinh.jpeg",
+    },
+    {
+        song: "Trai Tai Gai Sat",
+        src: "./mp3/traitaigaisat.mp3",
+        img: "./IMG/traitaigaisat.jpeg",
+    },
+    {
+        song: "Vang Trang Khoc",
+        src: "./mp3/vangtrangkhoc.mp3",
+        img: "./IMG/vangtrangkhoc.jpeg",
     },
 ];
 const $ = document.querySelector.bind(document);
